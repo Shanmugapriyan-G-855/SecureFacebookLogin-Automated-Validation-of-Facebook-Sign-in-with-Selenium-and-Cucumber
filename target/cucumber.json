@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-05T07:43:35.584Z",
+        "line": 3,
+        "name": "To validate Signin with valid email or phone number and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-signin-with-valid-email-or-phone-number-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2929240400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To laucnch the firefox browser and maximize the window",
+            "match": {
+              "location": "org.sample.FbSigin.to_laucnch_the_firefox_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4151082100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of Facebook application",
+            "match": {
+              "location": "org.sample.FbSigin.to_launch_the_url_of_facebook_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3099740300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass valid Email or mobile phone number in text box",
+            "match": {
+              "location": "org.sample.FbSigin.to_pass_valid_email_or_mobile_phone_number_in_text_box(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "row/column",
+                  "A",
+                  "B"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "priyanAbisha2123@gmail.com",
+                  "9765321032"
+                ]
+              },
+              {
+                "cells": [
+                  "2",
+                  "shanmugapriyan2352002@gmail.com",
+                  "1234567890"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3036980500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To pass valid password in Password text box",
+            "match": {
+              "location": "org.sample.FbSigin.to_pass_valid_password_in_password_text_box(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "password1",
+                  "shan@1234"
+                ]
+              },
+              {
+                "cells": [
+                  "password2",
+                  "efgh254300"
+                ]
+              },
+              {
+                "cells": [
+                  "password3",
+                  "ijkl78945"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To check whether navigate the homepage or not",
+            "match": {
+              "location": "org.sample.FbSigin.to_check_whether_navigate_the_homepage_or_not()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1046709500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To close the browser",
+            "match": {
+              "location": "org.sample.FbSigin.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of Facebook application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Facebook.feature",
+    "tags": []
+  }
+]
